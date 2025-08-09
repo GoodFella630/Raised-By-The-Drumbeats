@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery - The Just Man</title>
+    <title>Author - The Just Man</title>
     <script src="scripts/vendor.js"></script>
     <meta name="description" content="">
     <meta name="keywords" content="Raised By The Drumbeats, The Just Man, Clarence Sylvester, Melinda Sylvester, Jesus, God, Faith, Belief, Christ, Survival, Miracles, Greater Georgia, Black Chamber Of Commerce, GGBCC, Georgia, Atlanta.">
@@ -12,7 +12,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/lightbox.css" rel="stylesheet">
 </head>
 <body class="antialiased">
 
@@ -23,9 +22,9 @@
             </a>
             <div class="hidden md:flex items-center space-x-8">
                 <a href="index.html" class="nav-link text-slate-600 hover:text-sky-500 transition-colors">Home</a>
-                <a href="author.html" class="nav-link text-slate-600 hover:text-sky-500 transition-colors">Author</a>
+                <a href="author.html" class="nav-link active text-slate-600 hover:text-sky-500 transition-colors">Author</a>
                 <a href="rbtdb.html" class="nav-link text-slate-600 hover:text-sky-500 transition-colors">RBTDB</a>
-                <a href="gallery.html" class="nav-link active text-slate-600 hover:text-sky-500 transition-colors">Gallery</a>
+                <a href="gallery.html" class="nav-link text-slate-600 hover:text-sky-500 transition-colors">Gallery</a>
                 <a href="contact.html" class="nav-link text-slate-600 hover:text-sky-500 transition-colors">Contact</a>
             </div>
             <button id="mobile-menu-button" class="md:hidden p-2 rounded-md text-slate-600 hover:bg-slate-100 focus:outline-none">
@@ -42,12 +41,25 @@
     </header>
 
     <main id="main-content">
-        <section id="gallery" class="content-section active fade-in">
+        <section id="book" class="content-section active fade-in">
             <div class="container mx-auto px-6 py-16 md:py-24">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-slate-800">Gallery</h2>
-                </div>
-                <div id="image-gallery-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+                <div class="grid md:grid-cols-5 gap-12 items-center">
+                    <div class="md:col-span-2">
+                        <img src="imgs/1.jpg" class="rounded-lg shadow-2xl w-full max-w-sm mx-auto">
+                    </div>
+                    <div class="md:col-span-3">
+                        <h2 class="text-3xl md:text-4xl font-bold text-slate-800 mb-4">The Just Man: Raised By The Drumbeats</h2>
+                        <p class="text-lg text-slate-600 mb-6">
+                            The Just Man is the powerful story of Clarence Sylvester, who became one of the first African American Senior Drilling Supervisors in the oilfield industry to lead an international crew on a hi-tech drilling ship. One afternoon, while volunteering at a community stakeholders event at Movie Studio Stage 8 in Fayetteville, GA, Clarence went into sudden cardiac arrest and died. His heart had to be shocked back into rhythm by God and two EMTs. The first word out of his mouth, after being raised by the drumbeats of an AED, was “JESUS”.
+                        </p>
+                        <p class="text-slate-500 italic mb-8">
+                            In this poignant, motivational book, Clarence chronicles his time as the 11th of 13 farming children from rural Breaux Bridge, Louisiana, persevering and rising to the top of the oil industry in a 35-year professional journey that spanned the globe.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <a href="https://www.amazon.com/Just-Man-Raised-Drumbeats/dp/0578399059" target="_blank" class="bg-slate-800 hover:bg-slate-900 text-white font-bold py-3 px-6 rounded-lg transition-transform transform hover:scale-105">Buy on Amazon</a>
+                            <a href="https://www.amazon.com/Just-Man-Raised-Drumbeats-ebook/dp/B0CP4RV8BT" target="_blank" class="bg-white border border-slate-300 hover:bg-slate-100 text-slate-700 font-bold py-3 px-6 rounded-lg transition-transform transform hover:scale-105">Kindle</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -65,7 +77,6 @@
         </div>
     </footer>
 
-    <script src="scripts/lightbox.js"></script>
     <script src="scripts/scripts.js"></script>
     <script src="scripts/wvortex.min.js"></script>
 

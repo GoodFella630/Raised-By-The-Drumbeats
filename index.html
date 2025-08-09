@@ -1,55 +1,104 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en" class="scroll-smooth">
 <head>
-    <title>The Just Man</title>
-    <meta charset="utf-8">
-    <meta name="description"
-      content="Raised By The Drumbeats, The Just Man, Clarence Sylvester, Melinda Sylvester, Jesus, God, Faith, Belief, Christ, Survival, Miracles, Greater Georgia, Black Chamber Of Commerce, GGBCC, Georgia, Atlanta.">
-    <meta name="keywords" content="">
-    <meta name="author" content="Team AG">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>The Just Man</title>
+    <script src="scripts/vendor.js"></script>
+    <meta name="description" content="">
+    <meta name="keywords" content="Raised By The Drumbeats, The Just Man, Clarence Sylvester, Melinda Sylvester, Jesus, God, Faith, Belief, Christ, Survival, Miracles, Greater Georgia, Black Chamber Of Commerce, GGBCC, Georgia, Atlanta.">
+    <meta name="author" content="Team AG">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
+<body class="antialiased">
+    <header id="header" class="bg-white/80 backdrop-blur-lg shadow-sm sticky top-0 z-50 transition-all duration-300">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="logo text-2xl font-bold text-slate-800 hover:text-sky-500 transition-colors">
+                The Just Man
+            </a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="index.html" class="nav-link active text-slate-600 hover:text-sky-500 transition-colors">Home</a>
+                <a href="author.html" class="nav-link text-slate-600 hover:text-sky-500 transition-colors">Author</a>
+                <a href="rbtdb.html" class="nav-link text-slate-600 hover:text-sky-500 transition-colors">RBTDB</a>
+                <a href="gallery.html" class="nav-link text-slate-600 hover:text-sky-500 transition-colors">Gallery</a>
+                <a href="contact.html" class="nav-link text-slate-600 hover:text-sky-500 transition-colors">Contact</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden p-2 rounded-md text-slate-600 hover:bg-slate-100 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+            <a href="index.html" class="nav-link block py-2 text-slate-600 hover:text-sky-500 transition-colors">Home</a>
+            <a href="author.html" class="nav-link block py-2 text-slate-600 hover:text-sky-500 transition-colors">Author</a>
+            <a href="rbtdb.html" class="nav-link block py-2 text-slate-600 hover:text-sky-500 transition-colors">RBTDB</a>
+            <a href="gallery.html" class="nav-link block py-2 text-slate-600 hover:text-sky-500 transition-colors">Gallery</a>
+            <a href="contact.html" class="nav-link block py-2 text-slate-600 hover:text-sky-500 transition-colors">Contact</a>
+        </div>
+    </header>
 
-<body>
-  <header>
-    <input type="checkbox" id="sidebar-active">
-    <label for="sidebar-active" class="open-sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" height="32"
-        viewBox="0 -960 960 960" width="32" fill="#1f1f1f">
-        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
-      </svg>
-    </label>
-    <div class="logo">
-      <a class="home-link" href="index.html">The Just Man</a>
-    </div>
-    <div class="links-container">
-      <label for="sidebar-active" class="close-sidebar-button">
-        <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
-          fill="#1f1f1f">
-          <path
-            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
-        </svg>
-      </label>
+    <main id="main-content">
+        <section id="home" class="content-section active fade-in">
+            <div class="relative h-[60vh] md:h-[80vh] min-h-[400px] flex items-center justify-center text-white text-center px-4">
+                <div class="absolute inset-0 bg-black/60 z-10"></div>
+                <img src="imgs/1.jpg" class="absolute inset-0 w-full h-full object-cover">
+                <div class="relative z-20">
+                    <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-4">The Just Man</h1>
+                    <p class="text-lg md:text-xl max-w-3xl mx-auto text-slate-200">
+                        Some text here lorem ipsum
+                    </p>
+                    <a href="author.html" class="mt-8 inline-block bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-8 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                        Discover the Book
+                    </a>
+                </div>
+            </div>
+            <section class="feature-section">
+                <div class="container">
+                    <div class="feature-content">
+                        <div class="feature-text">
+                            <h2>Lorem ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            <a href="author.html" class="cta-button">Learn More</a>
+                        </div>
+                        <div class="feature-image">
+                            <img src="imgs/great.jpg" alt="A modern workspace with a laptop">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="feature-section alt">
+                <div class="container">
+                    <div class="feature-content">
+                        <div class="feature-image">
+                            <img src="imgs/3.jpg" alt="A person working on a laptop in a creative environment">
+                        </div>
+                        <div class="feature-text">
+                            <h2>Lorem ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            <a href="rbtdb.html" class="cta-button">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
 
-      <a href="index.html">Author</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="rbtd.html">RBTD</a>
-      <a href="contact.html">Contact</a>
-    </div>
-  </header>
-  <footer>
-      <div class="footer-content">
-          <p>&copy; 2025 The Just Man: Raised by The Drumbeats. All Rights Reserved.</p>
-          <ul class="footer-links">
-              <li><a href="terms.html">Terms of Service</a></li>
-              <li><a href="privacy.html">Privacy Policy</a></li>
-          </ul>
-      </div>
-  </footer>
-    <button id="scrollToTopBtn" title="Go to top">↑</button>
+    <footer class="bg-slate-800 text-slate-300">
+        <div class="container mx-auto px-6 py-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="text-center md:text-left">&copy; <span id="year"></span> The Just Man. All Rights Reserved.</p>
+                <div class="flex mt-4 md:mt-0 space-x-6">
+                    <a href="terms.html" class="hover:text-sky-400 transition-colors">Terms</a>
+                    <a href="privacy.html" class="hover:text-sky-400 transition-colors">Privacy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/scripts.js"></script>
     <script src="scripts/wvortex.min.js"></script>
-    <script src="scripts/custom.js"></script>
-</body>
 
+</body>
 </html>
