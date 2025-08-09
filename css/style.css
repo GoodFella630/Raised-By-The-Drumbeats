@@ -122,6 +122,18 @@ body {
 a.nav-link, nav a.logo {
     color: #fff;
     font-weight: 700;
+    transition: all .2s;
+}
+
+a.nav-link:hover {
+    background: #ffffff;
+    color: #000;
+}
+
+a.nav-link {
+    margin-left: 8px !important;
+    padding: 8px 12px;
+    border-radius: 20px;
 }
 
 .container {
