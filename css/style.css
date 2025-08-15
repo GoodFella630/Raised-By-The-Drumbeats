@@ -227,7 +227,7 @@ a.nav-link {
   }
   
   .terms_service {
-    max-width: 70%;
+    max-width: 50%;
     height: 65%;
     background: var(--white);
     border-radius: 3px;
