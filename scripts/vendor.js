@@ -72,9 +72,9 @@ function _0x3f92(_0x2d6b26,_0x3ce0e5){var _0x26b6a2=_0x26b6();return _0x3f92=fun
 document.addEventListener('DOMContentLoaded', function() {
     const galleryImages = [
         '1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', 
-        '8.jpg', '9.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', 
-        '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '20.jpg',
-        '21.jpg', '22.jpg', '23.jpg', 'great.jpg', 'great2.jpg', 'great3.jpg'
+        '8.jpg', '9.jpg', '10.jpg', '11.jpg','official.jpg', '12.jpg', '13.jpg', '14.jpg', 
+        '15.jpg', '16.jpg', 'just.jpg', 'just2.jpg', 'just3.jpg', 'just4.jpg', 'just5.jpg','bh.jpg', 'bh2.jpg', 'bh3.jpg', 'bh4.jpg','bh5.jpg', 'bh6.jpg','17.jpg', '18.jpg', '19.jpg', '20.jpg',
+        '21.jpg', '22.jpg', '23.jpg', 'great.jpg', 'great2.jpg', 'great3.jpg', 'thefam.jpg', '',
     ];
     const imagePath = 'imgs/';
     const galleryGrid = document.getElementById('image-gallery-grid');
